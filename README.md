@@ -62,23 +62,15 @@ The notebooks inside the model building directory contains the code for model bu
 ## Folder Structure
 
 ```
-└── challenge-regression/
+└── CHURN_PREDICTION_PROJECT/
     ├── data/
-    │   └── house_details_v1.csv
-    │   └── house_details_v3.csv
-    ├── data-exploration/
-    │   └── README.md (Data Analysis part)
-    │   └── test_notebook.ipynb
-    ├── model-building/
-    │   └── linear_model_using_pipeline.ipynb
-    │   └── non_linear_model_using_pipeline.ipynb
-    ├── models/
-    │   └── house_details.py
-    │   └── my_model.pkl
-    ├── output/
-    │   └── plots/(graphs from data visualization)
-    ├── src/
-    │   └── preprocess_predict.py
+    │   └── BankChurners.csv
+    ├── py_notebooks
+    │   └── classification.ipynb
+    │   └── clustering.ipynb
+    ├── visuals/
+    │   └── 
+    │   └── 
     └── requirements.txt
     └── .gitignore
     └── README.md
@@ -89,9 +81,7 @@ The notebooks inside the model building directory contains the code for model bu
 This project is done by Monisha Kumari Hitang, a junior at Becode.org and assisted by the coaches Vanessa Rivera Quinones and Samuel Borms.
 
 ## Timeline
-Start Date: 17/07/2023
-Duration: 4 days
-End Date: 20/07/2023 
+This project was done in 4-5 working days.
 
 ## Personal Situation
 This project is done as a part of “AI Bootcamp” course at Becode.org, I was given this project to do as a part of our coursework.
