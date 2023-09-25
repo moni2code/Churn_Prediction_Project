@@ -3,17 +3,14 @@
 ## Table of Contents
 Project Overview
 Dataset
-Dependencies
 Setup
-Usage
+Folder Structure
 Data Preprocessing
 Exploratory Data Analysis (EDA)
 Model Training
 Evaluation
 Results
-Future Improvements
-Contributing
-License
+Contributors
 
 ## Project Overview
 This project aims to analyze customer churn in a bank. Customer churn, also known as customer attrition, refers to the phenomenon where customers discontinue using a service provided by a business. In the context of a bank, this means customers closing their accounts or stopping their banking services.
@@ -49,15 +46,13 @@ Avg_Utilization_Ratio
 
 ## Setup
 ### Installation
-![python](https://img.shields.io/badge/python-3x-blue) ![sklearn](https://img.shields.io/badge/sklearn-green) ![pandas](https://img.shields.io/badge/pandas-purple) ![scikit-learn](https://img.shields.io/badge/sklearn-red) ![matplotlib](https://img.shields.io/badge/matplotlib-pink) ![seaborn](https://img.shields.io/badge/seaborn-grey)  
+![python](https://img.shields.io/badge/python-3x-blue) ![sklearn](https://img.shields.io/badge/sklearn-green) ![pandas](https://img.shields.io/badge/pandas-purple) ![scikit-learn](https://img.shields.io/badge/sklearn-red) ![matplotlib](https://img.shields.io/badge/matplotlib-pink) ![seaborn](https://img.shields.io/badge/seaborn-yellow)  
 
 To run the code and reproduce the analysis, follow these steps:
 * Clone the repository from [Here](https://github.com/moni2code/Churn_Prediction_Project)
 * Set up a Python environment with the necessary dependencies or install the required packages using ```pip install -m requirements.txt ```.
 * Open the Jupyter Notebook that contains the model building code.
-  
-## Usage
-The notebooks inside the model building directory contains the code for model building depending on what kind of model you want to use like linear models and non-linear models. 
+
 
 ## Folder Structure
 
@@ -75,7 +70,12 @@ The notebooks inside the model building directory contains the code for model bu
     └── .gitignore
     └── README.md
 ```
-
+## Data Preprocessing
+The dataset is pre-processed using sklearn pipeline, basically using column transformer for different columns incorporating simple imputer to replace the null values, one hot encoder for categorical values and standard scaler for scaling before training the models.
+## Exploratory Data Analysis (EDA)
+## Model Training
+Used classification model Random Forest Classifier for training and predicting.
+## Evaluation
 
 ## Contributors
 This project is done by Monisha Kumari Hitang, a junior at Becode.org and assisted by the coaches Vanessa Rivera Quinones and Samuel Borms.
