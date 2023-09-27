@@ -1,16 +1,16 @@
 # Churn Prediction and customer attrition analysis
 
 ## Table of Contents
-Project Overview
-Dataset
-Setup
-Folder Structure
-Data Preprocessing
-Exploratory Data Analysis (EDA)
-Model Training
-Evaluation
-Results
-Contributors
+* Project Overview
+* Dataset
+* Setup
+* Folder Structure
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Model Training
+* Evaluation
+* Results
+* Contributors
 
 ## Project Overview
 This project aims to analyze customer churn in a bank. Customer churn, also known as customer attrition, refers to the phenomenon where customers discontinue using a service provided by a business. In the context of a bank, this means customers closing their accounts or stopping their banking services.
