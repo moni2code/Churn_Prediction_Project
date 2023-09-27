@@ -78,10 +78,7 @@ Used classification model Random Forest Classifier for training and predicting.
 ## Evaluation
 
 ## Contributors
-This project is done by Monisha Kumari Hitang, a junior at Becode.org and assisted by the coaches Vanessa Rivera Quinones and Samuel Borms.
+This project is done as a part of “AI Bootcamp” course at Becode.org by Monisha Kumari Hitang, a junior data analyst at Becode.org and assisted by the coaches Vanessa Rivera Quinones and Samuel Borms.
 
 ## Timeline
 This project was done in 4-5 working days.
-
-## Personal Situation
-This project is done as a part of “AI Bootcamp” course at Becode.org, I was given this project to do as a part of our coursework.
