@@ -18,7 +18,7 @@ This project aims to analyze customer churn in a bank. Customer churn, also know
 The goal of this analysis is to identify patterns and factors contributing to customer churn, and ultimately build a predictive model that can help the bank in retaining its customers.
 
 ## Dataset
-The dataset used in this project is sourced from [Kaggle's Bank Customer Churn Prediction dataset]((https://www.kaggle.com/sakshigoyal7/credit-card-customers)). It contains information about bank customers including their age, gender,dependent count, income category, card category etc., as well as whether they exited the bank or not.
+The dataset used in this project is sourced from [Kaggle's Bank Customer Churn Prediction dataset](https://www.kaggle.com/sakshigoyal7/credit-card-customers). It contains information about bank customers including their age, gender,dependent count, income category, card category etc., as well as whether they exited the bank or not.
 
 The dataset includes the following columns:
 
@@ -51,7 +51,7 @@ Avg_Utilization_Ratio
 To run the code and reproduce the analysis, follow these steps:
 * Clone the repository from [Here](https://github.com/moni2code/Churn_Prediction_Project)
 * Set up a Python environment with the necessary dependencies or install the required packages using ```pip install -m requirements.txt ```.
-* Open the Jupyter Notebook that contains the model building code.
+* Open the Jupyter Notebook that contains the classification model and do the prediction for attrition customers.
 
 
 ## Folder Structure
@@ -64,8 +64,6 @@ To run the code and reproduce the analysis, follow these steps:
     │   └── classification.ipynb
     │   └── clustering.ipynb
     ├── visuals/
-    │   └── 
-    │   └── 
     └── requirements.txt
     └── .gitignore
     └── README.md
